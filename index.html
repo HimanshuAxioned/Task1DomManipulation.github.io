@@ -11,13 +11,13 @@
 <body>
   <!--navigation-->
   <header>
-    <a href="#FIXME" class="icon hamburger">hamburger</a>
+    <a href="#FIXME" class="removeText icon hamburger ">hamburger</a>
     <div class="header-content wrapper">
       <a href="#FIXME" title="logo">
         <h1> <img src="https://via.placeholder.com/105x30" alt="logo"></h1>
       </a>
       <nav >
-        <ul class="nav-list rsp">
+        <ul class="nav-list responsive-nav">
           <li> <a href="#FIXME" title="home">home</a></li>
           <li> <a href="#FIXME" title="about">about</a></li>
           <li> <a href="#FIXME" title="services">services</a></li>
@@ -32,32 +32,64 @@
   <section class="gallery">
     <div class="wrapper">
       <ul class="filter-items">
-        <li><a href="#FIXME" class="item" title="all">all</a></li>
-        <li><a href="#FIXME" class="item" title="wallpapers">wallpapers</a></li>
-        <li><a href="#FIXME" class="item" title="logos">logos</a></li>
-        <li><a href="#FIXME" class="item" title="bussinessCard">bussiness card</a></li>
-        <li><a href="#FIXME" class="item" title="stationary">stationary</a></li>
-        <li><a href="#FIXME" class="item" title="websites">websites</a></li>
-        <li><a href="#FIXME" class="item" title="mobileApps">mobile apps</a></li>
+        <li><a href="#FIXME" class="item active" title="all" data-name="all">all</a></li>
+        <li><a href="#FIXME" class="item" title="wallpapers" data-name="wallpapers">wallpapers</a></li>
+        <li><a href="#FIXME" class="item" title="logos" data-name="logos">logos</a></li>
+        <li><a href="#FIXME" class="item" title="bussinessCard" data-name="bussinessCard">bussiness card</a></li>
+        <li><a href="#FIXME" class="item" title="stationary" data-name="stationary">stationary</a></li>
+        <li><a href="#FIXME" class="item" title="websites" data-name="websites">websites</a></li>
+        <li><a href="#FIXME" class="item" title="mobileApps" data-name="mobileApps">mobile apps</a></li>
       </ul>
 
       <ul class="gallery-content">
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image1"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image2"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image3"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image4"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image5"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image6"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image7"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image8"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image9"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image10"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image11"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image12"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image13"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image14"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image15"></figure></li>
-        <li class="image"><figure><img src="https://via.placeholder.com/100x100" alt="image16"></figure></li>
+        <li class="image" data-name="logos">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image1"></figure>
+        </li>
+        <li class="image" data-name="logos">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image2"></figure>
+        </li>
+        <li class="image" data-name="bussinessCard">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image3"></figure>
+        </li>
+        <li class="image" data-name="wallpapers">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image4"></figure>
+        </li>
+        <li class="image" data-name="mobileApps">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image5"></figure>
+        </li>
+        <li class="image" data-name="logos">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image6"></figure>
+        </li>
+        <li class="image" data-name="websites">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image7"></figure>
+        </li>
+        <li class="image" data-name="websites">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image8"></figure>
+        </li>
+        <li class="image" data-name="mobileApps">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image9"></figure>
+        </li>
+        <li class="image" data-name="wallpapers">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image10"></figure>
+        </li>
+        <li class="image" data-name="logos">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image11"></figure>
+        </li>
+        <li class="image" data-name="websites">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image12"></figure>
+        </li>
+        <li class="image" data-name="stationary">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image13"></figure>
+        </li>
+        <li class="image" data-name="stationary">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image14"></figure>
+        </li>
+        <li class="image" data-name="stationary">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image15"></figure>
+        </li>
+        <li class="image" data-name="stationary">
+          <figure><img src="https://via.placeholder.com/100x100" alt="image16"></figure>
+        </li>
       </ul>
     </div>
   </section>
@@ -108,15 +140,16 @@
       <div class="copy-right">
         <p>&copy; 2014 nerva, all rights reserved</p>
         <ul>
-          <li><a href="#FIXME" target="_blank" title="google-plus" class="icon google-plus">google-plus</a></li>
-          <li><a href="#FIXME" target="_blank" title="twitter" class="icon twitter">twitter</a></li>
-          <li><a href="#FIXME" target="_blank" title="twitter" class="icon twitter">twitter</a></li>
-          <li><a href="#FIXME" target="_blank" title="baseball" class="icon basketball"> basketball</a></li>
-          <li><a href="#FIXME" target="_blank" title="linkedin" class="icon linkedin">linkedin</a></li>
-          <li><a href="#FIXME" target="_blank" title="facebook" class="icon facebook">facebook</a></li>
+          <li><a href="#FIXME" target="_blank" title="google-plus" class="removeText icon google-plus">google-plus</a></li>
+          <li><a href="#FIXME" target="_blank" title="twitter" class="removeText icon twitter">twitter</a></li>
+          <li><a href="#FIXME" target="_blank" title="twitter" class="removeText icon twitter">twitter</a></li>
+          <li><a href="#FIXME" target="_blank" title="baseball" class="removeText icon basketball"> basketball</a></li>
+          <li><a href="#FIXME" target="_blank" title="linkedin" class="removeText icon linkedin">linkedin</a></li>
+          <li><a href="#FIXME" target="_blank" title="facebook" class="removeText icon facebook">facebook</a></li>
         </ul>
       </div>
     </div>
   </footer>
 </body>
+<script src="main.js"></script>
 </html>
